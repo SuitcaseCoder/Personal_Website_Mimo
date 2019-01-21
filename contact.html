@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="contactstylesheet.css">
+
+<style>
+  body {
+    background-image: url("https://images.pexels.com/photos/798548/pexels-photo-798548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center;
+  }
+</style>
+</head>
+
+<title>
+Mimo Contact Me
+</title>
+
+<header>
+    <nav>
+      <h1>
+        Say <br> Hello!
+      </h1>
+      <ul>
+        <li><a href="file:///Users/administrator/Documents/Coding/Personal%20Website%20Mimo/index.html#">Home</a></li>
+        <li><a href="https://kinderfrogs.tcu.edu/" target="_blank">My Passions</a></li>
+        <li><a href="https://gabrielamimo.com/" target="_blank">My Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+</header>
+<body>
+
+  <div id="map" style="width: 800px; height: 400px; margin: 5px auto 0 auto;">
+    <script> function myMap() {
+    var mapCanvas = document.getElementById("map");
+    var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.2),
+        zoom: 10
+    };
+    var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC9GuwzzwfPNgB15esjRFFX3X2e_qCKeDw&callback=myMap"></script>
+  </div>
+
+
+
+<!-- contact form -->
+<div class="contact-title">
+  <h1> Contact Mi(mo)! </h1>
+  <h3> Submit form below to say hello, send a little encouragement,<br> or even provide some constructive criticism.
+    <br> I'll make sure to get back to you within 48 hours. </h3>
+</div>
+  <form>
+    <div class="contact-form">
+      <div class="input">
+        <input type="text" name="first" placeholder="First Name">
+      </div>
+      <div class="input">
+        <input  type="text" name="last" placeholder="Last Name">
+      </div>
+      <div class="input">
+        <input  type="text" name="email" placeholder="Your Email" required>
+      </div>
+
+      <div class="input">
+        <input type="text" name="subject line" placeholder="Subject Line">
+      </div>
+      <div class="input">
+         <textarea  type="text" name="message" placeholder="Your Message Here" ></textarea>
+      </div>
+    </div>
+  </form>
+
+
+<!-- contact form ends -->
+
+
+
+</body>
+</title>
+</head>
+</html>
